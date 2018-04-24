@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C++ Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/week04/src/main.exe",
+            "args": [],
+            "stopAtEntry": true,
+            "cwd": "${workspaceRoot}",
+            "environment": [],
+            "externalConsole": true,
+            "miDebuggerPath": "C:/MinGW/bin/gdb.exe",
+            "windows": {
+                "MIMode": "gdb",
+                "setupCommands": [
+                    {
+                        "description": "Enable pretty-printing for gdb",
+                        "text": "-enable-pretty-printing",
+                        "ignoreFailures": true
+                    }
+                ]
+            },
+            "preLaunchTask": "C++ >> Build File"
+        }
+    ]
+}
