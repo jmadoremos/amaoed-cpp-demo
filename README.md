@@ -6,7 +6,7 @@ This repository contains all source codes previewed during the demo of each corr
 
 1. Download [MinGW - Minimalistic GNU for Windows](https://sourceforge.net/projects/mingw) and install to **C:/MinGW** directory. Leave the default settings as is.
 
-2. In the _MinGW Installation Manager_, tick the following checkboxes and select the "Mark for Installation" option. After ticking them, click the **Installation** menu then click the **Apply Changes** option. Finally, in the dialog blox, click **Apply** button to continue. After installation, close both the dialog box and _MinGW Installation Manager_.
+2. The _MinGW Installation Manager_ window will appear. In the window, tick the following checkboxes and select the "Mark for Installation" option. After ticking them, click the **Installation** menu then click the **Apply Changes** option. Finally, in the dialog blox, click **Apply** button to continue. After installation, close both the dialog box and _MinGW Installation Manager_.
 
     * mingw32-base
 
@@ -26,7 +26,7 @@ This repository contains all source codes previewed during the demo of each corr
 
           ext install ms-vscode.cpptools
 
-## Reminder
+## Reminders
 
 * It currently supports only **Windows** operating system.
 
