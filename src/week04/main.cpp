@@ -22,7 +22,7 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello World!";
+  cout << "Hello World!";
 
 	// ********************** DO NOT CHANGE **********************
 	// Print a new line and ask user for any ket before exiting
