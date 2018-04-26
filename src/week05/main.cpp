@@ -22,7 +22,26 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello World!";
+    int mInt = 135902;
+    cout << "Integer: " << mInt << endl;
+
+    short mShort = 6540;
+    cout << "Short: " << mShort << endl;
+
+    long mLong = 13112452;
+    cout << "Long: " << mLong << endl;
+
+    float mFloat = 0.1f;
+    cout << "Float: " << mFloat << endl;
+
+    double mDouble = 0.001;
+    cout << "Double: " << mDouble << endl;
+
+    char mChar = '$';
+    cout << "Character: " << mChar << endl;
+
+    char mString[] = "This is a string";
+    cout << "String as an array of characters: " << mString << endl;
 
 	// ********************** DO NOT CHANGE **********************
 	// Print a new line and ask user for any ket before exiting

@@ -14,15 +14,34 @@
 //   limitations under the License.
 // *************************************************************************** //
 
-#include <iostream>
 #include <cstdlib>
+#include <cstring>
+#include <iostream>
 #include "../utils.h"
 
 using namespace std;
 
 int main()
 {
-    cout << "Hello World!";
+	int n;
+	cout << "Enter the number of elements: ";
+	cin >> n;
+
+	int x[n];
+	for (int i = 0; i < n; i = i + 1)
+  {
+		cout << "Number[" << i + 1 << "]: ";
+		cin >> x[i];
+	}
+	cout << endl;
+
+	int sum = 0;
+	for (int i = 0; i < n; i = i + 1)
+  {
+		sum = sum + x[i];
+	}
+
+	cout << "The sum of the " << n << " number(s) is: " << sum << endl;
 
 	// ********************** DO NOT CHANGE **********************
 	// Print a new line and ask user for any ket before exiting

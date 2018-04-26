@@ -15,18 +15,26 @@
 // *************************************************************************** //
 
 #include <iostream>
-#include <cstdlib>
 #include "../utils.h"
 
 using namespace std;
 
 int main()
 {
-    cout << "Hello World!";
+	int a = 100;
+	int* b = &a;
+	cout << "The value of a is " << a << endl;
+	cout << "The value of b is " << b << endl;
+	cout << "The value of b is " << *b << endl;
+	cout << endl;
+
+	a = 200;
+	cout << "The value of a is " << a << endl;
+	cout << "The value of b is " << b << endl;
 
 	// ********************** DO NOT CHANGE **********************
 	// Print a new line and ask user for any ket before exiting
 	// ***********************************************************
 	Utils::pause();
-	return EXIT_SUCCESS;
+	return 0;
 }
