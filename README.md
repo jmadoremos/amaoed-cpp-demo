@@ -14,9 +14,15 @@ This repository contains all source codes previewed during the demo of each corr
   
     * mingw32-gcc-objc
 
-3. Download and install [Visual Studio Code](https://code.visualstudio.com/). Leave the default settings as is.
+3. Download and install [git](https://git-scm.com/downloads). Leave the default settings as is.
 
-4. Open _Visual Studio Code_ and install the following _extensions_ ( Mac: <kbd>&#8984;</kbd>+<kbd>P</kbd>, Windows: <kbd>CTRL</kbd>+<kbd>P</kbd> ):
+4. Clone this repository using _command prompt_ for Windows or _terminal_ for Mac and Linux using:
+
+        $ git clone https://github.com/jmadoremos/amaoed-cpp-demo
+
+5. Download and install [Visual Studio Code](https://code.visualstudio.com/). Leave the default settings as is.
+
+6. Open _Visual Studio Code_ and install the following _extensions_ ( Mac: <kbd>&#8984;</kbd>+<kbd>P</kbd>, Windows: <kbd>CTRL</kbd>+<kbd>P</kbd> ):
 
     * EditorConfig for VS Code by EditorConfig:
 
