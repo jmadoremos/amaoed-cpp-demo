@@ -14,15 +14,18 @@
 //   limitations under the License.
 // *************************************************************************** //
 
-#include <iostream>
 #include <cstdlib>
+#include <iostream>
 #include "../utils.h"
+#include "subject.h"
 
 using namespace std;
 
 int main()
 {
-    cout << "Hello World!";
+	Subject comp("Computer Programming 1", "IT0001", 3);
+
+	cout << "Subject Details: " << comp.getSubject() << endl;
 
 	// ********************** DO NOT CHANGE **********************
 	// Print a new line and ask user for any ket before exiting

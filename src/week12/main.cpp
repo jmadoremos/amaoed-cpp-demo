@@ -15,18 +15,20 @@
 // *************************************************************************** //
 
 #include <iostream>
-#include <cstdlib>
 #include "../utils.h"
 
 using namespace std;
 
 int main()
 {
-    cout << "Hello World!";
+	char a[] = "Hello World";
+	cout << "The value of a is " << a << endl;
+	cout << "The address of a is " << &a << endl;
+	cout << "The address of a[1] is " << (void*)&a[1] << endl;
 
 	// ********************** DO NOT CHANGE **********************
 	// Print a new line and ask user for any ket before exiting
 	// ***********************************************************
 	Utils::pause();
-	return EXIT_SUCCESS;
+	return 0;
 }

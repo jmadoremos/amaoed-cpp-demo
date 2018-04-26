@@ -14,15 +14,33 @@
 //   limitations under the License.
 // *************************************************************************** //
 
-#include <iostream>
 #include <cstdlib>
+#include <cstring>
+#include <iostream>
 #include "../utils.h"
 
 using namespace std;
 
 int main()
 {
-    cout << "Hello World!";
+	int n;
+
+	cout << "Enter the number of rows: ";
+	cin >> n;
+	cout << endl;
+
+	for (int i = 0; i < n; i++)
+  {
+		for (int t = 0; t < n - i - 1; t++)
+    {
+			cout << " ";
+		}
+		for (int t = 0; t < (i * 2) + 1; t++)
+    {
+			cout << "*";
+		}
+		cout << endl;
+	}
 
 	// ********************** DO NOT CHANGE **********************
 	// Print a new line and ask user for any ket before exiting
