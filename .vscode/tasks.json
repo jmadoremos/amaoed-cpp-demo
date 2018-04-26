@@ -16,7 +16,7 @@
                 "isDefault": true
             },
             "command": "C:/MinGW/bin/g++.exe",
-            "args": ["-g", "-o", "main.exe", "src/*.*"],
+            "args": [ "-g", "-o", "\"${fileDirname}\\main.exe\"", "\"${fileDirname}\\main.cpp\"" ],
         }
     ]
 }

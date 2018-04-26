@@ -1,16 +1,15 @@
 #include <iostream>
 #include <cstdlib>
-#include "_pause.h"
+#include "../utils.h"
 
 using namespace std;
 
 int main() {
-    cout << "Hello World!" << endl;
+    cout << "Hello World!";
 
 	// ********************** DO NOT CHANGE **********************
 	// Print a new line and ask user for any ket before exiting
 	// ***********************************************************
-	cout << endl;
-	system("PAUSE");
+	Utils::pause();
 	return EXIT_SUCCESS;
 }
