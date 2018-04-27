@@ -26,14 +26,14 @@ int main()
 	char monthName[10];
 	short month, day, year;
 
-	cout << "Enter month (1-12): ";
-	cin >> month;
+  month = 1;
+	cout << "The value of month is: " << month << endl;
 
-	cout << "Enter day (1-31): ";
-	cin >> day;
+  day = 12;
+	cout << "The value of day is: " << day << endl;
 
-	cout << "Enter year: ";
-	cin >> year;
+	year = 2018;
+  cout << "The value of year is: " << year << endl;
 	cout << endl;
 
 	switch (month)
@@ -80,7 +80,8 @@ int main()
 
   if (strcmp(monthName, "") != 0)
   {
-	  cout << monthName << " " << day << ", " << year << endl;
+	  cout << "The date is ";
+    cout << monthName << " " << day << ", " << year << endl;
   }
 
 	// ********************** DO NOT CHANGE **********************
