@@ -23,15 +23,14 @@ using namespace std;
 
 int main()
 {
-	int n;
-	cout << "Enter the number of elements: ";
-	cin >> n;
+	int n = 5;
+	cout << "The number of elements we want is: " << n << endl;
 
 	int x[n];
 	for (int i = 0; i < n; i = i + 1)
   {
-		cout << "Number[" << i + 1 << "]: ";
-		cin >> x[i];
+    x[i] = i + 1;
+		cout << "Index[" << i << "] is: " << x[i] << endl;
 	}
 	cout << endl;
 

@@ -38,8 +38,9 @@ void Utils::pause(void)
 {
   fflush(stdin);
   cout << endl;
-  cout << "[INFO] Press any key to continue...";
+  cout << "[INFO] The application will now be terminating...";
   cin.get();
+  cout << endl;
 }
 // END: Define utility class
 

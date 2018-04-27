@@ -23,10 +23,9 @@ using namespace std;
 
 int main()
 {
-	int n;
+	int n = 5;
 
-	cout << "Enter the number of rows: ";
-	cin >> n;
+	cout << "The numer of rows is: " << n;
 	cout << endl;
 
 	for (int i = 0; i < n; i++)
