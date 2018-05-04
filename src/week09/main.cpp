@@ -27,7 +27,7 @@ int calc(int a, int b)
 
 int main()
 {
-	cout << "The valu of 5 and 6 after calc(): " << calc(5, 6) << endl;
+	cout << "The value of 5 and 6 after calc(): " << calc(5, 6) << endl;
 
 	// ********************** DO NOT CHANGE **********************
 	// Print a new line and ask user for any ket before exiting
