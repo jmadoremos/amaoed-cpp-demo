@@ -20,14 +20,14 @@
 
 using namespace std;
 
-int sum(int a, int b)
+int calc(int a, int b)
 {
 	return a + b;
 }
 
 int main()
 {
-	cout << "The sum of 5 and 6 is: " << sum(5, 6) << endl;
+	cout << "The valu of 5 and 6 after calc(): " << calc(5, 6) << endl;
 
 	// ********************** DO NOT CHANGE **********************
 	// Print a new line and ask user for any ket before exiting
