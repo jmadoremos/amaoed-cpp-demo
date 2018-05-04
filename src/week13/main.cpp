@@ -24,14 +24,18 @@ int main()
 	int a = 100;
 	int* b = &a;
 	cout << "The value of a is " << a << endl;
+	cout << "The address of a is " << &a << endl;
 	cout << "The value of b is " << b << endl;
 	cout << "The value pointed at by b is " << *b << endl;
+	cout << "The address of b is " << &b << endl;
 	cout << endl;
 
 	a = 200;
 	cout << "The value of a is " << a << endl;
+	cout << "The address of a is " << &a << endl;
 	cout << "The value of b is " << b << endl;
-	cout << "The value pointed at by is " << *b << endl;
+	cout << "The value pointed at by b is " << *b << endl;
+	cout << "The address of b is " << &b << endl;
 
 	// ********************** DO NOT CHANGE **********************
 	// Print a new line and ask user for any ket before exiting
