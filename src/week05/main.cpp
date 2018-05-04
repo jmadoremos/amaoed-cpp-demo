@@ -31,6 +31,9 @@ int main()
     long mLong = 13112452;
     cout << "Long: " << mLong << endl;
 
+    bool mBool = true;
+    cout << "Bool: " << mBool << endl;
+
     float mFloat = 0.1f;
     cout << "Float: " << mFloat << endl;
 
