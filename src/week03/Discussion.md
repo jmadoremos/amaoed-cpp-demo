@@ -2,7 +2,7 @@
 
 ## Problem Statement
 
-Next we used the Preparation symbol to declare our variables. We will be needing three (3) variables for our computations. The userValue variable will contain the number entered by the user. 
+Write a program that accepts an integer input from the user and display the least number of combinations of 10s, 5s, and 1s.
 
 ## Phase 1
 
