@@ -2,6 +2,8 @@
 
 ## Problem #1 - Food Intake
 
+---
+
 ### Problem Statement
 
 One of our daily routines is eating. However, you can only eat if there is food already prepared for you. If there are none, you should cook food on your own before you take a big gulp.
@@ -23,6 +25,8 @@ FoodIntake()
 ```
 
 ## Problem #2 - Weekend Routine
+
+---
 
 ### Problem Statement
 
@@ -47,6 +51,8 @@ WeekendRoutine()
 ```
 
 ## Problem #3 - Daily Chores
+
+---
 
 ### Problem Statement
 
@@ -74,6 +80,8 @@ DailyChores()
 
 ## Problem #4 - Study, Games and Everything Nice
 
+---
+
 ### Problem Statement
 
 As students, we were forced to a study habit. On weekdays, we are to study our lessons. On weekends, we are free to play with the computer. After studying and playing computer games, we still have time to watch television.
@@ -97,6 +105,8 @@ StudyGamesAndEverythingNice()
 ```
 
 ## Problem #5 - Garden, Oh My Garden
+
+---
 
 ### Problem Statement
 
