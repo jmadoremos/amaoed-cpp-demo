@@ -18,7 +18,11 @@ This repository contains all source codes previewed during the demo of each corr
 
 4. Clone this repository using _command prompt_ for Windows or _terminal_ for Mac and Linux using:
 
-        $ git clone https://github.com/jmadoremos/amaoed-cpp-demo
+    ```dos
+    mkdir C:/git
+    cd C:/git
+    git clone https://github.com/jmadoremos/amaoed-cpp-demo
+    ```
 
 5. Download and install [Visual Studio Code](https://code.visualstudio.com/). Leave the default settings as is.
 
