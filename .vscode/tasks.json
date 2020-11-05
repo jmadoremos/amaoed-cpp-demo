@@ -1,22 +1,52 @@
 {
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
     "version": "2.0.0",
-    "type": "shell",
-    "echoCommand": true,
-    "presentation": {
-        "echo": true,
-        "reveal": "never",
-        "focus": false,
-        "panel": "shared"
-    },
-    "tasks":[
+    "tasks": [
         {
-            "label": "C++ >> Build File",
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "command": "C:/MinGW/bin/g++.exe",
-            "args": [ "-g", "-o", "\"${fileDirname}\\main.exe\"", "\"${fileDirname}\\main.cpp\"" ],
+            "type": "shell",
+            "label": "[g++] Compile for Windows",
+            "command": "C:/ProgramData/chocolatey/bin/g++.exe",
+            "args": [ "-g", "-o", "${workspaceFolder}/build/main", "${fileDirname}/main.cpp" ],
+            "problemMatcher": ["$gcc"],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            }
+        },
+        {
+            "type": "shell",
+            "label": "[g++] Compile for Linux",
+            "command": "/usr/bin/g++",
+            "args": [ "-g", "-o", "${workspaceFolder}/build/main", "${fileDirname}/main.cpp" ],
+            "problemMatcher": ["$gcc"],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            }
+        },
+        {
+            "type": "shell",
+            "label": "[clang++] Compile for Mac OS",
+            "command": "/usr/bin/clang++",
+            "args": [ "-std=c++17", "-stdlib=libc++", "-g", "-o", "${workspaceFolder}/build/main", "${fileDirname}/main.cpp" ],
+            "problemMatcher": ["$gcc"],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            }
         }
     ]
 }
