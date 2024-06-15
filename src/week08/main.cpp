@@ -23,28 +23,28 @@ using namespace std;
 
 int main()
 {
-	int n = 5;
-	cout << "The number of elements we want is: " << n << endl;
+  int n = 5;
+  cout << "The number of elements we want is: " << n << endl;
 
-	int x[n];
-	for (int i = 0; i < n; i = i + 1)
+  int x[n];
+  for (int i = 0; i < n; i = i + 1)
   {
     x[i] = i + 1;
-		cout << "Index[" << i << "] is: " << x[i] << endl;
-	}
-	cout << endl;
+    cout << "Index[" << i << "] is: " << x[i] << endl;
+  }
+  cout << endl;
 
-	int sum = 0;
-	for (int i = 0; i < n; i = i + 1)
+  int sum = 0;
+  for (int i = 0; i < n; i = i + 1)
   {
-		sum = sum + x[i];
-	}
+    sum = sum + x[i];
+  }
 
-	cout << "The sum of the " << n << " number(s) is: " << sum << endl;
+  cout << "The sum of the " << n << " number(s) is: " << sum << endl;
 
-	// ********************** DO NOT CHANGE **********************
-	// Print a new line and ask user for any ket before exiting
-	// ***********************************************************
-	Utils::pause();
-	return EXIT_SUCCESS;
+  // ********************** DO NOT CHANGE **********************
+  // Print a new line and ask user for any ket before exiting
+  // ***********************************************************
+  Utils::pause();
+  return EXIT_SUCCESS;
 }

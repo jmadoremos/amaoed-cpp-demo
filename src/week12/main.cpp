@@ -21,14 +21,14 @@ using namespace std;
 
 int main()
 {
-	char a[] = "Hello World";
-	cout << "The value of a is " << a << endl;
-	cout << "The address of a is " << &a << endl;
-	cout << "The address of a[1] is " << (void*)&a[1] << endl;
+  char a[] = "Hello World";
+  cout << "The value of a is " << a << endl;
+  cout << "The address of a is " << &a << endl;
+  cout << "The address of a[1] is " << (void *)&a[1] << endl;
 
-	// ********************** DO NOT CHANGE **********************
-	// Print a new line and ask user for any ket before exiting
-	// ***********************************************************
-	Utils::pause();
-	return 0;
+  // ********************** DO NOT CHANGE **********************
+  // Print a new line and ask user for any ket before exiting
+  // ***********************************************************
+  Utils::pause();
+  return 0;
 }

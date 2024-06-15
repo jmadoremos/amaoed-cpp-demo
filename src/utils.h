@@ -30,8 +30,8 @@ using namespace std;
 
 class Utils
 {
-  public:
-    static void pause(void);
+public:
+  static void pause(void);
 };
 
 void Utils::pause(void)

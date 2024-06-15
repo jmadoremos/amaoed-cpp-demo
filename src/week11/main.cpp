@@ -23,15 +23,15 @@ using namespace std;
 
 int main()
 {
-	Subject comp("Computer Programming 1", "IT0001", 3);
-	Math math;
+  Subject comp("Computer Programming 1", "IT0001", 3);
+  Math math;
 
-	cout << "Subject Details: " << comp.getSubject() << endl;
-	cout << "Subject Details: " << math.getSubject() << endl;
+  cout << "Subject Details: " << comp.getSubject() << endl;
+  cout << "Subject Details: " << math.getSubject() << endl;
 
-	// ********************** DO NOT CHANGE **********************
-	// Print a new line and ask user for any ket before exiting
-	// ***********************************************************
-	Utils::pause();
-	return EXIT_SUCCESS;
+  // ********************** DO NOT CHANGE **********************
+  // Print a new line and ask user for any ket before exiting
+  // ***********************************************************
+  Utils::pause();
+  return EXIT_SUCCESS;
 }

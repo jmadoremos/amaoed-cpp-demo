@@ -23,70 +23,70 @@ using namespace std;
 
 int main()
 {
-	char monthName[10];
-	short month, day, year;
+  char monthName[10];
+  short month, day, year;
 
   month = 1;
-	cout << "The value of month is: " << month << endl;
+  cout << "The value of month is: " << month << endl;
 
   day = 12;
-	cout << "The value of day is: " << day << endl;
+  cout << "The value of day is: " << day << endl;
 
-	year = 2018;
+  year = 2018;
   cout << "The value of year is: " << year << endl;
-	cout << endl;
+  cout << endl;
 
-	switch (month)
+  switch (month)
   {
-		case 1:
-      strcpy(monthName, "January");
-      break;
-		case 2:
-      strcpy(monthName, "February");
-      break;
-		case 3:
-      strcpy(monthName, "March");
-      break;
-		case 4:
-      strcpy(monthName, "April");
-      break;
-		case 5:
-      strcpy(monthName, "May");
-      break;
-		case 6:
-      strcpy(monthName, "June");
-      break;
-		case 7:
-      strcpy(monthName, "July");
-      break;
-		case 8:
-      strcpy(monthName, "August");
-      break;
-		case 9:
-      strcpy(monthName, "September");
-      break;
-		case 10:
-      strcpy(monthName, "October");
-      break;
-		case 11:
-      strcpy(monthName, "November");
-      break;
-		case 12:
-      strcpy(monthName, "December");
-      break;
-		default:
-      cout << "Invalid Month!" << endl;
-	}
+  case 1:
+    strcpy(monthName, "January");
+    break;
+  case 2:
+    strcpy(monthName, "February");
+    break;
+  case 3:
+    strcpy(monthName, "March");
+    break;
+  case 4:
+    strcpy(monthName, "April");
+    break;
+  case 5:
+    strcpy(monthName, "May");
+    break;
+  case 6:
+    strcpy(monthName, "June");
+    break;
+  case 7:
+    strcpy(monthName, "July");
+    break;
+  case 8:
+    strcpy(monthName, "August");
+    break;
+  case 9:
+    strcpy(monthName, "September");
+    break;
+  case 10:
+    strcpy(monthName, "October");
+    break;
+  case 11:
+    strcpy(monthName, "November");
+    break;
+  case 12:
+    strcpy(monthName, "December");
+    break;
+  default:
+    cout << "Invalid Month!" << endl;
+  }
 
   if (strcmp(monthName, "") != 0)
   {
-	  cout << "The date is ";
+    cout << "The date is ";
     cout << monthName << " " << day << ", " << year << endl;
   }
 
-	// ********************** DO NOT CHANGE **********************
-	// Print a new line and ask user for any ket before exiting
-	// ***********************************************************
-	Utils::pause();
-	return EXIT_SUCCESS;
+  // ********************** DO NOT CHANGE **********************
+  // Print a new line and ask user for any ket before exiting
+  // ***********************************************************
+  Utils::pause();
+  return EXIT_SUCCESS;
 }

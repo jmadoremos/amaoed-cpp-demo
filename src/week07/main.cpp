@@ -23,27 +23,27 @@ using namespace std;
 
 int main()
 {
-	int n = 5;
+  int n = 5;
 
-	cout << "The numer of rows is: " << n;
-	cout << endl;
+  cout << "The numer of rows is: " << n;
+  cout << endl;
 
-	for (int i = 0; i < n; i++)
+  for (int i = 0; i < n; i++)
   {
-		for (int t = 0; t < n - i - 1; t++)
+    for (int t = 0; t < n - i - 1; t++)
     {
-			cout << " ";
-		}
-		for (int t = 0; t < (i * 2) + 1; t++)
+      cout << " ";
+    }
+    for (int t = 0; t < (i * 2) + 1; t++)
     {
-			cout << "*";
-		}
-		cout << endl;
-	}
+      cout << "*";
+    }
+    cout << endl;
+  }
 
-	// ********************** DO NOT CHANGE **********************
-	// Print a new line and ask user for any ket before exiting
-	// ***********************************************************
-	Utils::pause();
-	return EXIT_SUCCESS;
+  // ********************** DO NOT CHANGE **********************
+  // Print a new line and ask user for any ket before exiting
+  // ***********************************************************
+  Utils::pause();
+  return EXIT_SUCCESS;
 }

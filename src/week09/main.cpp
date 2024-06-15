@@ -22,16 +22,16 @@ using namespace std;
 
 int calc(int a, int b)
 {
-	return a + b;
+  return a + b;
 }
 
 int main()
 {
-	cout << "The value of 5 and 6 after calc(): " << calc(5, 6) << endl;
+  cout << "The value of 5 and 6 after calc(): " << calc(5, 6) << endl;
 
-	// ********************** DO NOT CHANGE **********************
-	// Print a new line and ask user for any ket before exiting
-	// ***********************************************************
-	Utils::pause();
-	return EXIT_SUCCESS;
+  // ********************** DO NOT CHANGE **********************
+  // Print a new line and ask user for any ket before exiting
+  // ***********************************************************
+  Utils::pause();
+  return EXIT_SUCCESS;
 }
