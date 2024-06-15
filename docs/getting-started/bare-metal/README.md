@@ -71,13 +71,13 @@ code --install-extension vscode-icons-team.vscode-icons --force
 To clone the remote git repository locally, run this command using a terminal:
 
 ```
-git clone https://github.com/jmadoremos/amaoed-cpp-template.git --depth 1
+git clone https://github.com/jmadoremos/amaoed-cpp-demo.git --depth 1
 ```
 
 If you already have the local git repository previously, run this command to get the latest copy from the remote git repository (i.e., GitHub).
 
 ```
-cd amaoed-cpp-template/
+cd amaoed-cpp-demo/
 ```
 
 ```
@@ -97,5 +97,5 @@ git pull
 To open the local git repository in Visual Studio Code, run this command using a terminal:
 
 ```
-code amaoed-cpp-template/
+code amaoed-cpp-demo/
 ```
