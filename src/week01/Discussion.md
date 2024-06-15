@@ -1,6 +1,6 @@
 # Week 001 - Introduction to Computing and Programming
 
-## Infamous Programming and Scripting Languages
+## Famous Programming and Scripting Languages
 
 ### JavaScript
 
