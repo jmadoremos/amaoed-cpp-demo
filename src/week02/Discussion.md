@@ -12,16 +12,22 @@ One of our daily routines is eating. However, you can only eat if there is food 
 ---
 title: Food Intake Flowchart
 ---
-flowchart LR
-  start1(( Start ))
+flowchart TD
+  %% Node definition:
+  start1((Start)):::terminal
   food_prepared{Is food prepared?}
   cook_food[Cook food]
   eat[Eat]
-  end1(( End ))
+  end1((End)):::terminal
 
+  %% Flow definition:
   start1 --> food_prepared
   food_prepared -->|No| cook_food --> end1
   food_prepared -->|Yes| eat --> end1
+
+  %% Class definition:
+  classDef default padding:10px,stroke-width:2px
+  classDef terminal stroke-width:4px,padding:20px
 ```
 
 ### Pseudocode
@@ -48,18 +54,24 @@ Is it weekends? Is it weekends? That is one of the questions we ask ourselves da
 ---
 title: Weekend Routine Flowchart
 ---
-flowchart LR
-  start1((Start))
+flowchart TD
+  %% Node definition:
+  start1((Start)):::terminal
   wake_up[Wake up]
   is_weekends{Is weekends?}
   take_bath[Take a bath]
   sleep[Sleep]
-  end1((End))
+  end1((End)):::terminal
 
+  %% Flow definition:
   start1 --> wake_up
   wake_up --> is_weekends
   is_weekends -->|Yes| sleep --> end1
   is_weekends -->|No| take_bath --> end1
+
+  %% Class definition:
+  classDef default padding:10px,stroke-width:2px
+  classDef terminal stroke-width:4px,padding:20px
 ```
 
 ### Pseudocode
@@ -88,20 +100,26 @@ We are given chores depending on the day. On weekends, we are tasked to do the l
 ---
 title: Daily Chores
 ---
-flowchart LR
-  start1((Start))
+flowchart TD
+  %% Node definition:
+  start1((Start)):::terminal
   is_satsun{Is the day Saturday\nor Sunday?}
   is_fri{Is the day Friday?}
   clean[General cleaning]
   laundry[Laundry]
   grocery[Grocery]
-  end1((End))
+  end1((End)):::terminal
 
+  %% Flow definition:
   start1 --> is_satsun
   is_satsun -->|Yes| laundry --> end1
   is_satsun -->|No| is_fri
   is_fri -->|Yes| grocery --> end1
   is_fri -->|No| clean --> end1
+
+  %% Class definition:
+  classDef default padding:10px,stroke-width:2px
+  classDef terminal stroke-width:4px,padding:20px
 ```
 
 ### Pseudocode
@@ -131,18 +149,24 @@ As students, we were forced to a study habit. On weekdays, we are to study our l
 ---
 title: Study, Games and Everything Nice
 ---
-flowchart LR
-  start1((Start))
+flowchart TD
+  %% Node definition:
+  start1((Start)):::terminal
   is_weekday{Is weekdays?}
   computer[Computer]
   study[Study]
   watch[Watch television]
-  end1((End))
+  end1((End)):::terminal
 
+  %% Flow definition:
   start1 --> is_weekday
   is_weekday -->|Yes| study --> watch
   is_weekday -->|No| computer --> watch
   watch --> end1
+
+  %% Class definition:
+  classDef default padding:10px,stroke-width:2px
+  classDef terminal stroke-width:4px,padding:20px
 ```
 
 ### Pseudocode
@@ -171,19 +195,25 @@ Imagine a huge house with a beautiful garden. With that, you need to ensure the 
 ---
 title: Garden, Oh My Garden
 ---
-flowchart LR
-  start1((Start))
+flowchart TD
+  %% Node definition:
+  start1((Start)):::terminal
   is_messy{Is the garden\nmessy?}
   is_gardener{Are you the\ngardener?}
   call_garden[Call the gardener]
   start_garden[Start gardening]
-  end1((End))
+  end1((End)):::terminal
 
+  %% Flow definition:
   start1 --> is_messy
   is_messy -->|Yes| is_gardener
   is_messy -->|No| end1
   is_gardener -->|Yes| start_garden --> end1
   is_gardener -->|No| call_garden --> end1
+
+  %% Class definition:
+  classDef default padding:10px,stroke-width:2px
+  classDef terminal stroke-width:4px,padding:20px
 ```
 
 ### Pseudocode
